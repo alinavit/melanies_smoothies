@@ -19,7 +19,7 @@ st.write("The name on your Smoothie will be: ", name_of_order)
 
 
 
-# session = get_active_session()
+session = get_active_session()
 
 
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
