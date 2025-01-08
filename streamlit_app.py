@@ -22,8 +22,8 @@ from snowflake.snowpark import Session
 @st.cache_resource
 def create_snowpark_session():
     config = {
-        "account": "alivit",
-        "user": "YGZNHYY-VBB85325",
+        "account": "YGZNHYY-VBB85325",
+        "user": "alivit",
         "password": "Welcocme@2023",
         "role": "ACCOUNTADMIN",
         "warehouse": "COMPUTE_WH",
