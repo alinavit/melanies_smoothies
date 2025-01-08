@@ -29,7 +29,7 @@ def create_snowpark_session():
     config = {
         "account": "hqb23554",
         "user": "alivit",
-        "password": "Welcocme@2023",
+        "password": "Welcome@2025!",
         "role": "ACCOUNTADMIN",
         "warehouse": "COMPUTE_WH",
         "database": "SMOOTHIES",
