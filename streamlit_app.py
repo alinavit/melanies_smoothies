@@ -42,6 +42,11 @@ session = create_snowpark_session()
 
 ####################################################
 
+#last section
+import requests
+smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+st.text(smoothiefroot_response)
+####################################################
 
 
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
