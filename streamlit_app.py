@@ -16,28 +16,6 @@ st.write("The name on your Smoothie will be: ", name_of_order)
 
 
 
-#################################
-from snowflake.snowpark import Session
-
-@st.cache_resource
-def create_snowpark_session():
-    config = {
-        "account": "alivit",
-        "user": "YGZNHYY.VBB85325",
-        "password": "Welcome@2023",
-        "role": "ACCOUNTADMIN",
-        "warehouse": "COMPUTE_WH",
-        "database": "SMOOTHIES",
-        "schema": "PUBLIC"
-    }
-    return Session.builder.configs(config).create()
-
-# Use the session in your Streamlit app
-session = create_snowpark_session()
-#################################
-
-
-
 
 
 
